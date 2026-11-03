@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/CMakeFiles/psx_libwebp-populate"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/CMakeFiles/psx_libwebp-populate.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/CMakeFiles/psx_libwebp-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-build.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-download.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-install.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-test.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/psx_libwebp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"psx_libwebp-populate"
+		],
+		"name" : "psx_libwebp-populate"
+	}
+}

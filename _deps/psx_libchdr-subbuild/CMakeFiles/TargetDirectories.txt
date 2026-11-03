@@ -1,0 +1,3 @@
+C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/CMakeFiles/psx_libchdr-populate.dir
+C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/CMakeFiles/edit_cache.dir
+C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/CMakeFiles/rebuild_cache.dir

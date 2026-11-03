@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/CMakeFiles/psx_libchdr-populate"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/CMakeFiles/psx_libchdr-populate.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/CMakeFiles/psx_libchdr-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-build.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-download.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-install.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-test.rule"
+		},
+		{
+			"file" : "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-subbuild/psx_libchdr-populate-prefix/src/psx_libchdr-populate-stamp/psx_libchdr-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"psx_libchdr-populate"
+		],
+		"name" : "psx_libchdr-populate"
+	}
+}

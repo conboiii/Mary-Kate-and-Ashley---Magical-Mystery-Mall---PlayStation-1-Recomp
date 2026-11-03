@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Recompdev/Toolchain/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/download-psx_libwebp-populate.cmake;COMMAND;C:/Recompdev/Toolchain/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/verify-psx_libwebp-populate.cmake;COMMAND;C:/Recompdev/Toolchain/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-subbuild/psx_libwebp-populate-prefix/src/psx_libwebp-populate-stamp/extract-psx_libwebp-populate.cmake
+source_dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src
+work_dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps
+url(s)=https://codeload.github.com/webmproject/libwebp/tar.gz/4fa21912338357f89e4fd51cf2368325b59e9bd9
+hash=SHA256=923f3382a47a2af185c3240c954cf004428b237bd7317413a95146d01eb4b94b
+      no_extract=
+

@@ -1,0 +1,1311 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The system is: Windows - 10.0.26300 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Recompdev/Toolchain/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/3.31.12/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Recompdev/Toolchain/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/3.31.12/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_8ab32
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe   -v -MD -MT CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_8ab32.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -c C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/Recompdev/Toolchain/bin
+        Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg
+         (in-process)
+         "C:/Recompdev/Toolchain/bin/clang-22.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj -v -fcoverage-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj -resource-dir C:/Recompdev/Toolchain/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_8ab32.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/Recompdev/Toolchain/lib/clang/22/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include -internal-isystem C:/Recompdev/Toolchain/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -x c C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-w64-mingw32
+        ignoring nonexistent directory "C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Recompdev/Toolchain/lib/clang/22/include
+         C:/Recompdev/Toolchain/x86_64-w64-mingw32/include
+         C:/Recompdev/Toolchain/include
+        End of search list.
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -o cmTC_8ab32.exe -Wl,--out-implib,libcmTC_8ab32.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/Recompdev/Toolchain/bin
+        Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg
+         "C:/Recompdev/Toolchain/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_8ab32.exe C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/lib -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib -LC:/Recompdev/Toolchain/lib -LC:/Recompdev/Toolchain/lib/clang/22/lib/windows -v CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_8ab32.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o
+        LLD 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1) (compatible with GNU linkers)
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Recompdev/Toolchain/lib/clang/22/include]
+          add: [C:/Recompdev/Toolchain/x86_64-w64-mingw32/include]
+          add: [C:/Recompdev/Toolchain/include]
+        end of search list found
+        collapse include dir [C:/Recompdev/Toolchain/lib/clang/22/include] ==> [C:/Recompdev/Toolchain/lib/clang/22/include]
+        collapse include dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/include] ==> [C:/Recompdev/Toolchain/x86_64-w64-mingw32/include]
+        collapse include dir [C:/Recompdev/Toolchain/include] ==> [C:/Recompdev/Toolchain/include]
+        implicit include dirs: [C:/Recompdev/Toolchain/lib/clang/22/include;C:/Recompdev/Toolchain/x86_64-w64-mingw32/include;C:/Recompdev/Toolchain/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_8ab32]
+        ignore line: [[1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe   -v -MD -MT CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_8ab32.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -c C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/Recompdev/Toolchain/bin]
+        ignore line: [Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/Recompdev/Toolchain/bin/clang-22.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj -v -fcoverage-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1y7ujj -resource-dir C:/Recompdev/Toolchain/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_8ab32.dir\\\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/Recompdev/Toolchain/lib/clang/22/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include -internal-isystem C:/Recompdev/Toolchain/include -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -exception-model=seh -faddrsig -o CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -x c C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-w64-mingw32]
+        ignore line: [ignoring nonexistent directory "C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Recompdev/Toolchain/lib/clang/22/include]
+        ignore line: [ C:/Recompdev/Toolchain/x86_64-w64-mingw32/include]
+        ignore line: [ C:/Recompdev/Toolchain/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj -o cmTC_8ab32.exe -Wl --out-implib libcmTC_8ab32.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/Recompdev/Toolchain/bin]
+        ignore line: [Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg]
+        link line: [ "C:/Recompdev/Toolchain/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_8ab32.exe C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/lib -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib -LC:/Recompdev/Toolchain/lib -LC:/Recompdev/Toolchain/lib/clang/22/lib/windows -v CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_8ab32.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o]
+          arg [C:/Recompdev/Toolchain/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_8ab32.exe] ==> ignore
+          arg [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o] ==> obj [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o]
+          arg [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o] ==> obj [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o]
+          arg [-LC:/Recompdev/Toolchain/x86_64-w64-mingw32/lib] ==> dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib]
+          arg [-LC:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/Recompdev/Toolchain/lib] ==> dir [C:/Recompdev/Toolchain/lib]
+          arg [-LC:/Recompdev/Toolchain/lib/clang/22/lib/windows] ==> dir [C:/Recompdev/Toolchain/lib/clang/22/lib/windows]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_8ab32.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_8ab32.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o] ==> obj [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o]
+        linker tool for 'C': C:/Recompdev/Toolchain/bin/ld.lld
+        remove lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib] ==> [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib] ==> [C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/Recompdev/Toolchain/lib] ==> [C:/Recompdev/Toolchain/lib]
+        collapse library dir [C:/Recompdev/Toolchain/lib/clang/22/lib/windows] ==> [C:/Recompdev/Toolchain/lib/clang/22/lib/windows]
+        implicit libs: [mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o;C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o;C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o]
+        implicit dirs: [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib;C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib;C:/Recompdev/Toolchain/lib;C:/Recompdev/Toolchain/lib/clang/22/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Recompdev/Toolchain/bin/ld.lld" "-v"
+      LLD 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1) (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_59eab
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\c++.exe   -v -MD -MT CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_59eab.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/Recompdev/Toolchain/bin
+        Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg
+         (in-process)
+         "C:/Recompdev/Toolchain/bin/clang-22.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e -v -fcoverage-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e -resource-dir C:/Recompdev/Toolchain/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_59eab.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/Recompdev/Toolchain/include/c++/v1 -internal-isystem C:/Recompdev/Toolchain/lib/clang/22/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include -internal-isystem C:/Recompdev/Toolchain/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-w64-mingw32
+        ignoring nonexistent directory "C:/Recompdev/Toolchain/x86_64-w64-mingw32/include/c++/v1"
+        ignoring nonexistent directory "C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Recompdev/Toolchain/include/c++/v1
+         C:/Recompdev/Toolchain/lib/clang/22/include
+         C:/Recompdev/Toolchain/x86_64-w64-mingw32/include
+         C:/Recompdev/Toolchain/include
+        End of search list.
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\c++.exe  -v -Wl,-v CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_59eab.exe -Wl,--out-implib,libcmTC_59eab.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)
+        Target: x86_64-w64-windows-gnu
+        Thread model: posix
+        InstalledDir: C:/Recompdev/Toolchain/bin
+        Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg
+         "C:/Recompdev/Toolchain/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_59eab.exe C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/lib -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib -LC:/Recompdev/Toolchain/lib -LC:/Recompdev/Toolchain/lib/clang/22/lib/windows -v CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_59eab.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o
+        LLD 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1) (compatible with GNU linkers)
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Recompdev/Toolchain/include/c++/v1]
+          add: [C:/Recompdev/Toolchain/lib/clang/22/include]
+          add: [C:/Recompdev/Toolchain/x86_64-w64-mingw32/include]
+          add: [C:/Recompdev/Toolchain/include]
+        end of search list found
+        collapse include dir [C:/Recompdev/Toolchain/include/c++/v1] ==> [C:/Recompdev/Toolchain/include/c++/v1]
+        collapse include dir [C:/Recompdev/Toolchain/lib/clang/22/include] ==> [C:/Recompdev/Toolchain/lib/clang/22/include]
+        collapse include dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/include] ==> [C:/Recompdev/Toolchain/x86_64-w64-mingw32/include]
+        collapse include dir [C:/Recompdev/Toolchain/include] ==> [C:/Recompdev/Toolchain/include]
+        implicit include dirs: [C:/Recompdev/Toolchain/include/c++/v1;C:/Recompdev/Toolchain/lib/clang/22/include;C:/Recompdev/Toolchain/x86_64-w64-mingw32/include;C:/Recompdev/Toolchain/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_59eab]
+        ignore line: [[1/2] C:\\Recompdev\\Toolchain\\bin\\c++.exe   -v -MD -MT CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_59eab.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/Recompdev/Toolchain/bin]
+        ignore line: [Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/Recompdev/Toolchain/bin/clang-22.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -fno-sized-deallocation -fno-use-init-array -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e -v -fcoverage-compilation-dir=C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-xb8s3e -resource-dir C:/Recompdev/Toolchain/lib/clang/22 -dependency-file "CMakeFiles\\\\cmTC_59eab.dir\\\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/include/c++/v1 -internal-isystem C:/Recompdev/Toolchain/include/c++/v1 -internal-isystem C:/Recompdev/Toolchain/lib/clang/22/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/include -internal-isystem C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include -internal-isystem C:/Recompdev/Toolchain/include -fdeprecated-macro -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -x c++ C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-w64-mingw32]
+        ignore line: [ignoring nonexistent directory "C:/Recompdev/Toolchain/x86_64-w64-mingw32/include/c++/v1"]
+        ignore line: [ignoring nonexistent directory "C:/Recompdev/Toolchain/x86_64-w64-mingw32/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Recompdev/Toolchain/include/c++/v1]
+        ignore line: [ C:/Recompdev/Toolchain/lib/clang/22/include]
+        ignore line: [ C:/Recompdev/Toolchain/x86_64-w64-mingw32/include]
+        ignore line: [ C:/Recompdev/Toolchain/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\c++.exe  -v -Wl -v CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_59eab.exe -Wl --out-implib libcmTC_59eab.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [clang version 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1)]
+        ignore line: [Target: x86_64-w64-windows-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/Recompdev/Toolchain/bin]
+        ignore line: [Configuration file: C:/Recompdev/Toolchain/bin/x86_64-w64-windows-gnu.cfg]
+        link line: [ "C:/Recompdev/Toolchain/bin/ld.lld" -m i386pep -Bdynamic -o cmTC_59eab.exe C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/lib -LC:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib -LC:/Recompdev/Toolchain/lib -LC:/Recompdev/Toolchain/lib/clang/22/lib/windows -v CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_59eab.dll.a --major-image-version 0 --minor-image-version 0 -lc++ -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a -lunwind -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o]
+          arg [C:/Recompdev/Toolchain/bin/ld.lld] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_59eab.exe] ==> ignore
+          arg [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o] ==> obj [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o]
+          arg [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o] ==> obj [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o]
+          arg [-LC:/Recompdev/Toolchain/x86_64-w64-mingw32/lib] ==> dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib]
+          arg [-LC:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib] ==> dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib]
+          arg [-LC:/Recompdev/Toolchain/lib] ==> dir [C:/Recompdev/Toolchain/lib]
+          arg [-LC:/Recompdev/Toolchain/lib/clang/22/lib/windows] ==> dir [C:/Recompdev/Toolchain/lib/clang/22/lib/windows]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_59eab.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_59eab.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a] ==> lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o] ==> obj [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o]
+        linker tool for 'CXX': C:/Recompdev/Toolchain/bin/ld.lld
+        remove lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        remove lib [C:/Recompdev/Toolchain/lib/clang/22/lib/windows/libclang_rt.builtins-x86_64.a]
+        remove lib [msvcrt]
+        collapse library dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib] ==> [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib] ==> [C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib]
+        collapse library dir [C:/Recompdev/Toolchain/lib] ==> [C:/Recompdev/Toolchain/lib]
+        collapse library dir [C:/Recompdev/Toolchain/lib/clang/22/lib/windows] ==> [C:/Recompdev/Toolchain/lib/clang/22/lib/windows]
+        implicit libs: [c++;mingw32;unwind;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;unwind;moldname;mingwex;kernel32]
+        implicit objs: [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crt2.o;C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtbegin.o;C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib/crtend.o]
+        implicit dirs: [C:/Recompdev/Toolchain/x86_64-w64-mingw32/lib;C:/Recompdev/Toolchain/x86_64-w64-mingw32/mingw/lib;C:/Recompdev/Toolchain/lib;C:/Recompdev/Toolchain/lib/clang/22/lib/windows]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Recompdev/Toolchain/bin/ld.lld" "-v"
+      LLD 22.1.8 (https://github.com/llvm/llvm-project.git ca7933e47d3a3451d81e72ac174dcb5aa28b59d1) (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build-repaired/_deps/psx_libchdr-src/deps/lzma-25.01/CMakeLists.txt:21 (check_symbol_exists)"
+    checks:
+      - "Looking for _M_AMD64"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-6fvat0"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-6fvat0"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libchdr-src/cmake"
+    buildResult:
+      variable: "CPU_X64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-6fvat0'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_5b20c
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_5b20c.dir/CheckSymbolExists.c.obj -MF CMakeFiles\\cmTC_5b20c.dir\\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_5b20c.dir/CheckSymbolExists.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-6fvat0/CheckSymbolExists.c
+        FAILED: [code=1] CMakeFiles/cmTC_5b20c.dir/CheckSymbolExists.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_5b20c.dir/CheckSymbolExists.c.obj -MF CMakeFiles\\cmTC_5b20c.dir\\CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_5b20c.dir/CheckSymbolExists.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-6fvat0/CheckSymbolExists.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-6fvat0/CheckSymbolExists.c:7:19: error: use of undeclared identifier '_M_AMD64'
+            7 |   return ((int*)(&_M_AMD64))[argc];
+              |                   ^~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:13 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_BSWAP16"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-8s2ddw"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-8s2ddw"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BUILTIN_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-8s2ddw'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_3228d
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAVE_BUILTIN_BSWAP16   -MD -MT CMakeFiles/cmTC_3228d.dir/src.c.obj -MF CMakeFiles\\cmTC_3228d.dir\\src.c.obj.d -o CMakeFiles/cmTC_3228d.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-8s2ddw/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_3228d.dir/src.c.obj -o cmTC_3228d.exe -Wl,--out-implib,libcmTC_3228d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_BSWAP32"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kteil3"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kteil3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BUILTIN_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kteil3'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_67cc1
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAVE_BUILTIN_BSWAP32   -MD -MT CMakeFiles/cmTC_67cc1.dir/src.c.obj -MF CMakeFiles\\cmTC_67cc1.dir\\src.c.obj.d -o CMakeFiles/cmTC_67cc1.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kteil3/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_67cc1.dir/src.c.obj -o cmTC_67cc1.exe -Wl,--out-implib,libcmTC_67cc1.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:29 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_BSWAP64"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-qjptf1"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-qjptf1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BUILTIN_BSWAP64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-qjptf1'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_abfa4
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAVE_BUILTIN_BSWAP64   -MD -MT CMakeFiles/cmTC_abfa4.dir/src.c.obj -MF CMakeFiles\\cmTC_abfa4.dir\\src.c.obj.d -o CMakeFiles/cmTC_abfa4.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-qjptf1/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_abfa4.dir/src.c.obj -o cmTC_abfa4.exe -Wl,--out-implib,libcmTC_abfa4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:60 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test HAVE_MATH_LIBRARY"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-w46e1c"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-w46e1c"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MATH_LIBRARY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-w46e1c'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_95b66
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAVE_MATH_LIBRARY   -MD -MT CMakeFiles/cmTC_95b66.dir/src.c.obj -MF CMakeFiles\\cmTC_95b66.dir\\src.c.obj.d -o CMakeFiles/cmTC_95b66.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-w46e1c/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_95b66.dir/src.c.obj -o cmTC_95b66.exe -Wl,--out-implib,libcmTC_95b66.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:131 (check_include_files)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Looking for include file GLUT/glut.h"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-e55kuw"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-e55kuw"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GLUT_GLUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-e55kuw'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_a8231
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_a8231.dir/HAVE_GLUT_GLUT_H.c.obj -MF CMakeFiles\\cmTC_a8231.dir\\HAVE_GLUT_GLUT_H.c.obj.d -o CMakeFiles/cmTC_a8231.dir/HAVE_GLUT_GLUT_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-e55kuw/HAVE_GLUT_GLUT_H.c
+        FAILED: [code=1] CMakeFiles/cmTC_a8231.dir/HAVE_GLUT_GLUT_H.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_a8231.dir/HAVE_GLUT_GLUT_H.c.obj -MF CMakeFiles\\cmTC_a8231.dir\\HAVE_GLUT_GLUT_H.c.obj.d -o CMakeFiles/cmTC_a8231.dir/HAVE_GLUT_GLUT_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-e55kuw/HAVE_GLUT_GLUT_H.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-e55kuw/HAVE_GLUT_GLUT_H.c:2:10: fatal error: 'GLUT/glut.h' file not found
+            2 | #include <GLUT/glut.h>
+              |          ^~~~~~~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:132 (check_include_files)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Looking for include file GL/glut.h"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-u7kla2"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-u7kla2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GL_GLUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-u7kla2'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_73880
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_73880.dir/HAVE_GL_GLUT_H.c.obj -MF CMakeFiles\\cmTC_73880.dir\\HAVE_GL_GLUT_H.c.obj.d -o CMakeFiles/cmTC_73880.dir/HAVE_GL_GLUT_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-u7kla2/HAVE_GL_GLUT_H.c
+        FAILED: [code=1] CMakeFiles/cmTC_73880.dir/HAVE_GL_GLUT_H.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_73880.dir/HAVE_GL_GLUT_H.c.obj -MF CMakeFiles\\cmTC_73880.dir\\HAVE_GL_GLUT_H.c.obj.d -o CMakeFiles/cmTC_73880.dir/HAVE_GL_GLUT_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-u7kla2/HAVE_GL_GLUT_H.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-u7kla2/HAVE_GL_GLUT_H.c:2:10: fatal error: 'GL/glut.h' file not found
+            2 | #include <GL/glut.h>
+              |          ^~~~~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:133 (check_include_files)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Looking for include file OpenGL/glut.h"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7nkjrt"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7nkjrt"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_OPENGL_GLUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7nkjrt'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_2c971
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_2c971.dir/HAVE_OPENGL_GLUT_H.c.obj -MF CMakeFiles\\cmTC_2c971.dir\\HAVE_OPENGL_GLUT_H.c.obj.d -o CMakeFiles/cmTC_2c971.dir/HAVE_OPENGL_GLUT_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7nkjrt/HAVE_OPENGL_GLUT_H.c
+        FAILED: [code=1] CMakeFiles/cmTC_2c971.dir/HAVE_OPENGL_GLUT_H.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_2c971.dir/HAVE_OPENGL_GLUT_H.c.obj -MF CMakeFiles\\cmTC_2c971.dir\\HAVE_OPENGL_GLUT_H.c.obj.d -o CMakeFiles/cmTC_2c971.dir/HAVE_OPENGL_GLUT_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7nkjrt/HAVE_OPENGL_GLUT_H.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7nkjrt/HAVE_OPENGL_GLUT_H.c:2:10: fatal error: 'OpenGL/glut.h' file not found
+            2 | #include <OpenGL/glut.h>
+              |          ^~~~~~~~~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:134 (check_include_files)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Looking for include file shlwapi.h"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tve6ip"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tve6ip"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SHLWAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tve6ip'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_44abc
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_44abc.dir/HAVE_SHLWAPI_H.c.obj -MF CMakeFiles\\cmTC_44abc.dir\\HAVE_SHLWAPI_H.c.obj.d -o CMakeFiles/cmTC_44abc.dir/HAVE_SHLWAPI_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tve6ip/HAVE_SHLWAPI_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_44abc.dir/HAVE_SHLWAPI_H.c.obj -o cmTC_44abc.exe -Wl,--out-implib,libcmTC_44abc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:135 (check_include_files)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-9zmv04"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-9zmv04"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-9zmv04'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_4ca7d
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_4ca7d.dir/HAVE_UNISTD_H.c.obj -MF CMakeFiles\\cmTC_4ca7d.dir\\HAVE_UNISTD_H.c.obj.d -o CMakeFiles/cmTC_4ca7d.dir/HAVE_UNISTD_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-9zmv04/HAVE_UNISTD_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_4ca7d.dir/HAVE_UNISTD_H.c.obj -o cmTC_4ca7d.exe -Wl,--out-implib,libcmTC_4ca7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:136 (check_include_files)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Looking for include file wincodec.h"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-g4ircj"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-g4ircj"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_WINCODEC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-g4ircj'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_5fee3
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_5fee3.dir/HAVE_WINCODEC_H.c.obj -MF CMakeFiles\\cmTC_5fee3.dir\\HAVE_WINCODEC_H.c.obj.d -o CMakeFiles/cmTC_5fee3.dir/HAVE_WINCODEC_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-g4ircj/HAVE_WINCODEC_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_5fee3.dir/HAVE_WINCODEC_H.c.obj -o cmTC_5fee3.exe -Wl,--out-implib,libcmTC_5fee3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:137 (check_include_files)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Looking for include file windows.h"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bye89c"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bye89c"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_WINDOWS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bye89c'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_a08cd
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe    -MD -MT CMakeFiles/cmTC_a08cd.dir/HAVE_WINDOWS_H.c.obj -MF CMakeFiles\\cmTC_a08cd.dir\\HAVE_WINDOWS_H.c.obj.d -o CMakeFiles/cmTC_a08cd.dir/HAVE_WINDOWS_H.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bye89c/HAVE_WINDOWS_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_a08cd.dir/HAVE_WINDOWS_H.c.obj -o cmTC_a08cd.exe -Wl,--out-implib,libcmTC_a08cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_AVX2"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-buxkpj"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-buxkpj"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-buxkpj'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_3383c
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_AVX2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_3383c.dir/src.c.obj -MF CMakeFiles\\cmTC_3383c.dir\\src.c.obj.d -o CMakeFiles/cmTC_3383c.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-buxkpj/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_3383c.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_AVX2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_3383c.dir/src.c.obj -MF CMakeFiles\\cmTC_3383c.dir\\src.c.obj.d -o CMakeFiles/cmTC_3383c.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-buxkpj/src.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-buxkpj/src.c:5:9: error: use of undeclared identifier 'this'
+            5 |         this is not valid code
+              |         ^~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_AVX2"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-jr53ui"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-jr53ui"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-jr53ui'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_eb45c
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_AVX2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mavx2 -MD -MT CMakeFiles/cmTC_eb45c.dir/src.c.obj -MF CMakeFiles\\cmTC_eb45c.dir\\src.c.obj.d -o CMakeFiles/cmTC_eb45c.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-jr53ui/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe -mavx2  CMakeFiles/cmTC_eb45c.dir/src.c.obj -o cmTC_eb45c.exe -Wl,--out-implib,libcmTC_eb45c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_SSE41"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt28r5"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt28r5"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_SSE41"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt28r5'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_aac84
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_SSE41 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_aac84.dir/src.c.obj -MF CMakeFiles\\cmTC_aac84.dir\\src.c.obj.d -o CMakeFiles/cmTC_aac84.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt28r5/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_aac84.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_SSE41 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_aac84.dir/src.c.obj -MF CMakeFiles\\cmTC_aac84.dir\\src.c.obj.d -o CMakeFiles/cmTC_aac84.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt28r5/src.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt28r5/src.c:5:9: error: use of undeclared identifier 'this'
+            5 |         this is not valid code
+              |         ^~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_SSE41"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-d4zdil"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-d4zdil"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_SSE41"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-d4zdil'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_94705
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_SSE41 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -msse4.1 -MD -MT CMakeFiles/cmTC_94705.dir/src.c.obj -MF CMakeFiles\\cmTC_94705.dir\\src.c.obj.d -o CMakeFiles/cmTC_94705.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-d4zdil/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe -msse4.1  CMakeFiles/cmTC_94705.dir/src.c.obj -o cmTC_94705.exe -Wl,--out-implib,libcmTC_94705.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_SSE2"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-5tfy5z"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-5tfy5z"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-5tfy5z'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_f1167
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_SSE2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_f1167.dir/src.c.obj -MF CMakeFiles\\cmTC_f1167.dir\\src.c.obj.d -o CMakeFiles/cmTC_f1167.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-5tfy5z/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_f1167.dir/src.c.obj -o cmTC_f1167.exe -Wl,--out-implib,libcmTC_f1167.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS32"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kxmu9x"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kxmu9x"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kxmu9x'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_202a3
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS32 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_202a3.dir/src.c.obj -MF CMakeFiles\\cmTC_202a3.dir\\src.c.obj.d -o CMakeFiles/cmTC_202a3.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kxmu9x/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_202a3.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS32 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_202a3.dir/src.c.obj -MF CMakeFiles\\cmTC_202a3.dir\\src.c.obj.d -o CMakeFiles/cmTC_202a3.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kxmu9x/src.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-kxmu9x/src.c:5:9: error: use of undeclared identifier 'this'
+            5 |         this is not valid code
+              |         ^~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS32"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ml7hk8"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ml7hk8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ml7hk8'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_354ab
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS32 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mips32 -MD -MT CMakeFiles/cmTC_354ab.dir/src.c.obj -MF CMakeFiles\\cmTC_354ab.dir\\src.c.obj.d -o CMakeFiles/cmTC_354ab.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ml7hk8/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_354ab.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS32 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mips32 -MD -MT CMakeFiles/cmTC_354ab.dir/src.c.obj -MF CMakeFiles\\cmTC_354ab.dir\\src.c.obj.d -o CMakeFiles/cmTC_354ab.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ml7hk8/src.c
+        error: unknown target CPU 'mips32'
+        note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, rocketlake, icelake-server, tigerlake, sapphirerapids, alderlake, raptorlake, meteorlake, arrowlake, arrowlake-s, lunarlake, gracemont, pantherlake, wildcatlake, novalake, sierraforest, grandridge, graniterapids, graniterapids-d, emeraldrapids, clearwaterforest, diamondrapids, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, znver3, znver4, znver5, x86-64, x86-64-v2, x86-64-v3, x86-64-v4
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS_DSP_R2"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-47lxdy"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-47lxdy"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS_DSP_R2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-47lxdy'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_780be
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_780be.dir/src.c.obj -MF CMakeFiles\\cmTC_780be.dir\\src.c.obj.d -o CMakeFiles/cmTC_780be.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-47lxdy/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_780be.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_780be.dir/src.c.obj -MF CMakeFiles\\cmTC_780be.dir\\src.c.obj.d -o CMakeFiles/cmTC_780be.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-47lxdy/src.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-47lxdy/src.c:5:9: error: use of undeclared identifier 'this'
+            5 |         this is not valid code
+              |         ^~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS_DSP_R2"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ie5can"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ie5can"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS_DSP_R2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ie5can'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_7e4d3
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mdspr2 -MD -MT CMakeFiles/cmTC_7e4d3.dir/src.c.obj -MF CMakeFiles\\cmTC_7e4d3.dir\\src.c.obj.d -o CMakeFiles/cmTC_7e4d3.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ie5can/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_7e4d3.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mdspr2 -MD -MT CMakeFiles/cmTC_7e4d3.dir/src.c.obj -MF CMakeFiles\\cmTC_7e4d3.dir\\src.c.obj.d -o CMakeFiles/cmTC_7e4d3.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-ie5can/src.c
+        clang-22: error: unsupported option '-mdspr2' for target 'x86_64-w64-mingw32'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:135 (check_c_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test HAS_COMPILE_FLAG"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bjjrz9"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bjjrz9"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_COMPILE_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bjjrz9'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_b7f51
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAS_COMPILE_FLAG  -mdspr2   -mno-dspr2 -MD -MT CMakeFiles/cmTC_b7f51.dir/src.c.obj -MF CMakeFiles\\cmTC_b7f51.dir\\src.c.obj.d -o CMakeFiles/cmTC_b7f51.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bjjrz9/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_b7f51.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAS_COMPILE_FLAG  -mdspr2   -mno-dspr2 -MD -MT CMakeFiles/cmTC_b7f51.dir/src.c.obj -MF CMakeFiles\\cmTC_b7f51.dir\\src.c.obj.d -o CMakeFiles/cmTC_b7f51.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-bjjrz9/src.c
+        clang-22: error: unsupported option '-mdspr2' for target 'x86_64-w64-mingw32'
+        clang-22: error: unsupported option '-mno-dspr2' for target 'x86_64-w64-mingw32'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_NEON"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-flre5l"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-flre5l"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_NEON"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-flre5l'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_cecff
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_NEON -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_cecff.dir/src.c.obj -MF CMakeFiles\\cmTC_cecff.dir\\src.c.obj.d -o CMakeFiles/cmTC_cecff.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-flre5l/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_cecff.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_NEON -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_cecff.dir/src.c.obj -MF CMakeFiles\\cmTC_cecff.dir\\src.c.obj.d -o CMakeFiles/cmTC_cecff.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-flre5l/src.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-flre5l/src.c:5:9: error: use of undeclared identifier 'this'
+            5 |         this is not valid code
+              |         ^~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_NEON"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7sg9cs"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7sg9cs"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_NEON"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7sg9cs'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_e7e67
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_NEON -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mfpu=neon -MD -MT CMakeFiles/cmTC_e7e67.dir/src.c.obj -MF CMakeFiles\\cmTC_e7e67.dir\\src.c.obj.d -o CMakeFiles/cmTC_e7e67.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7sg9cs/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_e7e67.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_NEON -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mfpu=neon -MD -MT CMakeFiles/cmTC_e7e67.dir/src.c.obj -MF CMakeFiles\\cmTC_e7e67.dir\\src.c.obj.d -o CMakeFiles/cmTC_e7e67.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-7sg9cs/src.c
+        clang-22: error: unsupported option '-mfpu=' for target 'x86_64-w64-mingw32'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MSA"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-h9d0eu"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-h9d0eu"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MSA"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-h9d0eu'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_1c2d9
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MSA -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_1c2d9.dir/src.c.obj -MF CMakeFiles\\cmTC_1c2d9.dir\\src.c.obj.d -o CMakeFiles/cmTC_1c2d9.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-h9d0eu/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_1c2d9.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MSA -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src  -MD -MT CMakeFiles/cmTC_1c2d9.dir/src.c.obj -MF CMakeFiles\\cmTC_1c2d9.dir\\src.c.obj.d -o CMakeFiles/cmTC_1c2d9.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-h9d0eu/src.c
+        C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-h9d0eu/src.c:5:9: error: use of undeclared identifier 'this'
+            5 |         this is not valid code
+              |         ^~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MSA"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1gzjjy"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1gzjjy"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MSA"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1gzjjy'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_c6a84
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MSA -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mmsa -MD -MT CMakeFiles/cmTC_c6a84.dir/src.c.obj -MF CMakeFiles\\cmTC_c6a84.dir\\src.c.obj.d -o CMakeFiles/cmTC_c6a84.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1gzjjy/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_c6a84.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DWEBP_HAVE_FLAG_MSA -IC:/Recompdev/MagicalMysteryMallRecomp/build-repaired/_deps/psx_libwebp-src -mmsa -MD -MT CMakeFiles/cmTC_c6a84.dir/src.c.obj -MF CMakeFiles\\cmTC_c6a84.dir\\src.c.obj.d -o CMakeFiles/cmTC_c6a84.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-1gzjjy/src.c
+        clang-22: error: unsupported option '-mmsa' for target 'x86_64-w64-mingw32'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/cpu.cmake:135 (check_c_compiler_flag)"
+      - "build-repaired/_deps/psx_libwebp-src/cmake/deps.cmake:145 (include)"
+      - "build-repaired/_deps/psx_libwebp-src/CMakeLists.txt:120 (include)"
+    checks:
+      - "Performing Test HAS_COMPILE_FLAG"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-s8lenp"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-s8lenp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_COMPILE_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-s8lenp'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_c4cc9
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAS_COMPILE_FLAG  -mmsa   -mno-msa -MD -MT CMakeFiles/cmTC_c4cc9.dir/src.c.obj -MF CMakeFiles\\cmTC_c4cc9.dir\\src.c.obj.d -o CMakeFiles/cmTC_c4cc9.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-s8lenp/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_c4cc9.dir/src.c.obj 
+        C:\\Recompdev\\Toolchain\\bin\\cc.exe -DHAS_COMPILE_FLAG  -mmsa   -mno-msa -MD -MT CMakeFiles/cmTC_c4cc9.dir/src.c.obj -MF CMakeFiles\\cmTC_c4cc9.dir\\src.c.obj.d -o CMakeFiles/cmTC_c4cc9.dir/src.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-s8lenp/src.c
+        clang-22: error: unsupported option '-mmsa' for target 'x86_64-w64-mingw32'
+        clang-22: error: unsupported option '-mno-msa' for target 'x86_64-w64-mingw32'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Recompdev/Toolchain/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "psxrecomp/runtime/runtime.cmake:228 (check_include_file)"
+      - "psxrecomp/runtime/runtime.cmake:269 (_psx_header_compiles)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt8fxb"
+      binary: "C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt8fxb"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Recompdev/Toolchain/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "_psx_have_SDL3_SDL_h__SDL3__SDL3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt8fxb'
+        
+        Run Build Command(s): C:/Recompdev/Toolchain/bin/ninja.exe -v cmTC_5b074
+        [1/2] C:\\Recompdev\\Toolchain\\bin\\cc.exe  -IC:/Recompdev/Toolchain/deps/include  -MD -MT CMakeFiles/cmTC_5b074.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_5b074.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_5b074.dir/CheckIncludeFile.c.obj -c C:/Recompdev/MagicalMysteryMallRecomp/build-repaired/CMakeFiles/CMakeScratch/TryCompile-tt8fxb/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Recompdev\\Toolchain\\bin\\cc.exe   CMakeFiles/cmTC_5b074.dir/CheckIncludeFile.c.obj -o cmTC_5b074.exe -Wl,--out-implib,libcmTC_5b074.dll.a -Wl,--major-image-version,0,--minor-image-version,0  C:/Recompdev/Toolchain/deps/lib/libSDL3.a  -lm  -lkernel32  -luser32  -lgdi32  -lwinmm  -limm32  -lole32  -loleaut32  -lversion  -luuid  -ladvapi32  -lsetupapi  -lshell32  -ldinput8  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

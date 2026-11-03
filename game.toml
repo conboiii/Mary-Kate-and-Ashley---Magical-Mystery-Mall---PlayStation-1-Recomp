@@ -1,0 +1,54 @@
+# Autofilled by tools/new_project_layout/probe_disc.py from your legal dump.
+# Review before shipping. Runtime quirks / overlay seeds still need hand work.
+
+[game]
+name = "MagicalMysteryMall"
+id = "SLUS-01121"
+players = 1
+exe = "disc/SLUS_011.21"
+disc = "C:\\Users\\User\\Downloads\\Mary-Kate and Ashley - Magical Mystery Mall (USA)\\Mary-Kate and Ashley - Magical Mystery Mall (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x800764B0"
+text_size = "0x00095800"
+stack_base = "0x801FFFF0"
+
+# Digests are for data Track 01 (first BINARY FILE / TRACK 01).
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Mary-Kate and Ashley - Magical Mystery Mall (USA) (Track 1).bin"
+cue_name = "Mary-Kate and Ashley - Magical Mystery Mall (USA).cue"
+boot_exe = "SLUS_011.21"
+known_sizes = [480920496]
+known_md5 = [
+  "f78782ba2614ef7c42cdf75dfb495ef4",
+]
+known_sha1 = [
+  "53bc72c3718ff4f870e2c1528f4cee87a9f789ee",
+]
+known_crc32 = [
+  "1f31f64e",
+]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "MagicalMysteryMall Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "opengl"
+aspect_ratio = "16:9"
+
+[controller]
+default_mode = "digital"
+
+# Online mount gate: digests + track count + optional TOC fingerprint
+# (see docs/NETPLAY.md).
+[netplay]
+require_cue = true
+required_tracks = 2
+required_disc_fp = "fe8e5d37f9288483200c83f4dd00d89fe1c84b7559b9a1435c98c6d0f2ca114b"

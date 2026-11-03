@@ -1,0 +1,12 @@
+{
+  "schema":1,
+  "profile":"ENHANCED",
+  "identity":"19a97253abe8b4d82e4af913c7676eb82cfafa89bdbf2674fecc2bc18c5c2a9a",
+  "shared_contract_sha256":"d92994e4230be2d211cac8c5e9e258d8d022a1ba694efe4fa213c43ba9fbf1ca",
+  "implementations":[
+    {"name":"cpu-spans","contract":"generated-native-span-v1","source_sha256":"bf6a92e7314bea5b7052f20391ad349e5268df0c387620d8ca75da5d22a9d9b9"},
+    {"name":"mdec-media-jobs","contract":"bounded-fifo-publication-v1","source_sha256":"4d7c5c851667b48fbf94994fe43d7b1f1f568c92094bde338982862666e14ddc"},
+    {"name":"openbios-block-read","contract":"openbios-cd-request-v1","source_sha256":"6c8dd5cb001a0690009fb37e99bb2b74451c7584ae4ea0589213e2b61c3abe37"},
+    {"name":"snapshot-capture","contract":"reusable-raw-capture-v1","source_sha256":"359d69175c989e2eb727f969d5e8c60a55943823b2602cc05c8e85806b40949e"}
+  ]
+}

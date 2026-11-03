@@ -1,0 +1,12 @@
+psx.enhancement.8mb-ram
+psx.enhancement.cd-speed
+psx.enhancement.crt-filter
+psx.enhancement.enhanced-audio
+psx.enhancement.fast-loading
+psx.enhancement.hd-textures
+psx.enhancement.image-filtering
+psx.enhancement.internal-resolution
+psx.enhancement.pgxp
+psx.feature.rewind
+psx.integration.debug-server
+psx.presentation.bezel
