@@ -1,7 +1,3 @@
-Mary-Kate and Ashley - Magical Mystery Mall Recomp.7z
-
-The reason it is compressed into a 7z file, because of the file size upload limit on github - 25 megabytes max
-
 Don't forget your own disc image of this game (USA Version only) (at the moment, only the bin and cue files work, as this is a WIP)
 
 Used PSXRecomp for this recompilation of this game
